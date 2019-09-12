@@ -7,9 +7,9 @@ def call(body) {
 	
 	pipeline {
 		// Run every 15 minutes, even if there is no commits
-		triggers {
+		/*triggers {
 			cron('H/15 * * * *')
-		} 
+		} */
 		//properties([pipelineTriggers([cron('* * * * *')])])
 
 		environment { 
